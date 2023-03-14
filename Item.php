@@ -61,7 +61,7 @@ class Item {
     public function __toString() {
         return "Item code: $this->code <br/>". 
                 "Description: $this->description <br/>".
-                "Price: ". number_format($this->price,2). "<br/>";
+                "Price: ". number_format($this->price,2). "<br/><br/>";
     }
 
     
